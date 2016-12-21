@@ -24,7 +24,7 @@ sd ls
 #### Setup (Recommended)
 First, pull down the repo:
 ```bash
-git clone git@github.com:rylnd/sd
+git clone git@github.com:dotsam/sd
 ```
 
 Then, to install (or to get the latest version):
@@ -36,7 +36,7 @@ setup/sd upgrade
 #### Setup (Automatic)
 For a one-off install, simply paste the following into your command line:
 ```bash
-curl -sL https://raw.github.com/rylnd/sd/master/setup/sd | bash -s install
+curl -sL https://raw.githubusercontent.com/dotsam/sd/master/setup/sd | bash -s install
 ```
 
 #### Setup (Manual)
@@ -47,7 +47,7 @@ source "<PATH_TO_SD_SCRIPT>"
 ```
 
 #### Fuzzy finding
-If [fzf](https://github.com/junegunn/fzf) is in `$PATH` shifting to a non matching point will bring fzf up with a list of all points, pre filtered with your non matching point. 
+If [fzy](https://github.com/jhawthorn/fzy) is in `$PATH` shifting to a non matching point will bring fzy up with a list of all points, pre filtered with your non matching point. 
 
 After:
 ```bash
@@ -57,7 +57,7 @@ sd add baz
 
 sd ba
 ```
-you will face fzf prompting yout to choose between baz and bar
+you will face fzy prompting yout to choose between baz and bar
 
 
 
